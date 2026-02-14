@@ -1,2 +1,14 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand: #00F7FF;
+}
+
+:root {
+  background-color: white;
+  color: #1a1a1a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
