@@ -21,29 +21,29 @@ const Projects = () => {
       live: "https://income25bd-vqg2.vercel.app/" 
     },
     { 
-      title: "Portfolio 2024", 
-      image: "/p3.jpg", 
+      title: "Portfolio", 
+      image: "/projects/grafexportflio.jpg", 
       tags: ["Tailwind", "Framer"],
-      github: "#", 
-      live: "#" 
+      github: "https://github.com/mdabdullahm/abdullah-sifat-portfolieo-website", 
+      live: "https://abdullah-sifat-portfolieo-website.vercel.app/" 
     },
     { 
-      title: "Real Estate Web", 
-      image: "/p4.jpg", 
+      title: "Cybersecurity Learning Platform", 
+      image: "/projects/zerodaytest.jpg", 
       tags: ["MongoDB", "Node"],
-      github: "#", 
-      live: "#" 
+      github: "https://github.com/mdabdullahm/ZeroDay-Test", 
+      live: "https://zero-day-test.vercel.app/" 
     },
     { 
-      title: "Health Tracker", 
-      image: "/p5.jpg", 
+      title: "Creative Agency Website", 
+      image: "/projects/agency.jpg", 
       tags: ["Firebase", "React"],
-      github: "#", 
-      live: "#" 
+      github: "https://github.com/mdabdullahm/neonStudio-Agency", 
+      live: "https://neoncode.co" 
     },
     { 
-      title: "AI Image Gen", 
-      image: "/p6.jpg", 
+      title: "Control Panel", 
+      image: "/projects/dashbord.jpg", 
       tags: ["OpenAI", "Next.js"],
       github: "#", 
       live: "#" 
@@ -54,7 +54,7 @@ const Projects = () => {
   const duplicatedProjects = [...projectList, ...projectList];
 
   return (
-    <section id="projects" className="py-20 bg-white overflow-hidden">
+    <section id="projects" className="py-15 bg-white overflow-hidden">
       <div className="max-w-[1400px] mx-auto px-6">
         
         {/* হেডার পার্ট */}
