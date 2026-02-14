@@ -64,7 +64,7 @@ const CTA = () => {
 
               {/* Email Button */}
               <motion.a
-                href="mailto:yourname@gmail.com" // এখানে তোমার ইমেইল দাও
+                href="mdabdullahmorol38@gmail.com" // এখানে তোমার ইমেইল দাও
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="flex items-center gap-3 border-2 border-white/20 text-white px-10 py-5 rounded-2xl font-black text-xs tracking-widest uppercase hover:bg-white hover:text-black transition-all"

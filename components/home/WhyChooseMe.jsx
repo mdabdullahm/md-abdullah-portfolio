@@ -96,35 +96,7 @@ const WhyChooseMe = () => {
                     ))}
                 </div>
 
-                {/* নিচে একটি বড় CTA টেক্সট */}
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    className="mt-20 p-12 bg-black rounded-[40px] text-center relative overflow-hidden"
-                >
-                    {/* গ্লো ইফেক্ট */}
-                    <div className="absolute top-0 right-0 w-32 h-32 bg-[#00F7FF]/20 blur-[60px]" />
-
-                    <h3 className="text-white text-2xl md:text-4xl font-black mb-6 uppercase tracking-tighter">
-                        Ready to start your <span className="text-[#00F7FF]">Dream Project?</span>
-                    </h3>
-                    <p className="text-gray-400 max-w-xl mx-auto mb-10 text-sm md:text-base">
-                        I am ready to turn your ideas into reality. Contact me today and ensure the best digital solutions for your business.
-                    </p>
-                    {/* WhatsApp Link Button */}
-                    <motion.a
-                        // এখানে তোমার WhatsApp নাম্বার বসাও (যেমন: 88017XXXXXXXX)
-                        href="https://wa.me/8801XXXXXXXXX?text=Hello Abdullah, I am interested in your services."
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="inline-flex items-center gap-3 bg-green-500 text-black px-12 py-4 rounded-2xl font-black text-[11px] tracking-widest uppercase hover:shadow-[0_10px_40px_rgba(0,247,255,0.4)] transition-all cursor-pointer"
-                    >
-                        <FaWhatsapp className="text-xl" />
-                        Let's Talk
-                    </motion.a>
-                </motion.div>
+                
             </div>
         </section>
     );
