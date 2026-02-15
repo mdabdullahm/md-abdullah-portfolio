@@ -10,7 +10,7 @@ const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 const CTA = () => {
   return (
-    <section className="py-20 px-6 bg-white overflow-hidden">
+    <section className="py-15 px-6 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="relative bg-black rounded-[50px] p-10 md:p-20 overflow-hidden shadow-[0_30px_100px_rgba(0,0,0,0.2)]">
           

@@ -1,7 +1,7 @@
 import FeaturedProjects from "@/components/projects/FeaturedProjects";
 import ProjectsHero from "@/components/projects/hero";
-// import CTA from "@/components/home/CTA";
-// import Projects from "@/components/home/Projects";
+import CTA from "@/components/home/CTA";
+import ProjectImpact from "@/components/projects/ProjectImpact";
 
 export const metadata = {
   title: "My Projects | Abdullah",
@@ -11,18 +11,14 @@ export const metadata = {
 export default function ProjectsPage() {
   return (
     <main className="bg-white min-h-screen">
-      
       {/* Projects Hero Section 1*/}
       <ProjectsHero />
       {/* Featured Projects Section  2 */}
       <FeaturedProjects/>
-
-     
-      <div className="py-20">
-         {/* <Projects /> */}
-      </div>
-
-      {/* <CTA /> */}
+      {/* Client Result / Impact section 3 */}
+      <ProjectImpact/>
+      {/* cta section 4 */}
+      <CTA />
     </main>
   );
 }

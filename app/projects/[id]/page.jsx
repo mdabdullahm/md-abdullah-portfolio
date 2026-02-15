@@ -13,9 +13,9 @@ const projectData = {
     category: "Full Stack Development",
     image: "/projects/ecommerce.jpg",
     tags: ["Next.js", "Stripe", "MongoDB", "Node.js"],
-    desc: "এটি একটি হাই-পারফরম্যান্স ই-commerce প্ল্যাটফর্ম। ইউজাররা এখানে প্রোডাক্ট ব্রাউজ করা থেকে শুরু করে সিকিউর পেমেন্ট পর্যন্ত সব করতে পারে। এটি সম্পূর্ণ রেসপনসিভ এবং দ্রুত লোড হয়।",
+    desc: "It is a high-performance e-commerce platform. Users can do everything from browsing products to making secure payments. It is fully responsive and loads quickly.",
     features: ["Stripe Payment Integration", "Dynamic Product Search", "User Dashboard", "Inventory Management"],
-    challenge: "সবচাইতে বড় চ্যালেঞ্জ ছিল পেমেন্ট গেটওয়ে ইন্টিগ্রেশন এবং ডাটাবেস অপ্টিমাইজেশন যাতে বড় ডাটা সেট দ্রুত হ্যান্ডেল করা যায়।",
+    challenge: "The biggest challenges were payment gateway integration and database optimization to handle large data sets quickly.",
     live: "https://neoncode-e-commerce-website.vercel.app/",
     github: "https://github.com/mdabdullahm/neoncode-e-commerce-website"
   },
@@ -24,9 +24,9 @@ const projectData = {
     category: "FinTech Solution",
     image: "/projects/income25bd.jpg",
     tags: ["React", "Chart.js", "Firebase", "Tailwind"],
-    desc: "একটি আধুনিক ইনভেস্টমেন্ট ম্যানেজমেন্ট সিস্টেম। ইউজাররা এখানে তাদের ইনকাম এবং চার্ট অ্যানালিটিক্স দেখতে পারে। রিয়েল-টাইম ডাটা ট্র্যাকিং এর জন্য এটি সেরা।",
+    desc: "A modern investment management system. Users can view their income and chart analytics here. It is best for real-time data tracking.",
     features: ["Interactive Analytics Charts", "Real-time Income Tracking", "Secure Wallet System", "Multi-level Referrals"],
-    challenge: "রিয়েল-টাইম চার্ট ডাটা এবং ক্যালকুলেশন গুলোকে নির্ভুলভাবে উপস্থাপন করা ছিল এই প্রোজেক্টের প্রধান কারিগরি চ্যালেঞ্জ।",
+    challenge: "The main technical challenge of this project was to accurately represent real-time chart data and calculations.",
     live: "https://income25bd-vqg2.vercel.app/",
     github: "https://github.com/mdabdullahm/income25bd"
   },
@@ -35,9 +35,9 @@ const projectData = {
     category: "Personal Branding",
     image: "/projects/grafexportflio.jpg",
     tags: ["Tailwind", "Framer Motion", "Next.js"],
-    desc: "এটি আমার নিজস্ব প্রফেশনাল পোর্টফোলিও। ফ্রেমার মোশন ব্যবহার করে এখানে চমৎকার এনিমেশন এবং মডার্ন ইউজার এক্সপেরিয়েন্স নিশ্চিত করা হয়েছে।",
+    desc: "This is my own professional portfolio. It uses Framer Motion to ensure excellent animation and a modern user experience.",
     features: ["Smooth Scroll Animations", "Dynamic Project Routing", "Contact Form Integration", "Mobile First Design"],
-    challenge: "প্রতিটি সেকশনকে পিক্সেল-পারফেক্ট রাখা এবং হাই-এন্ড এনিমেশন গুলোকে অপ্টিমাইজ করা ছিল মূল চ্যালেঞ্জ।",
+    challenge: "The main challenge was keeping each section pixel-perfect and optimizing the high-end animations.",
     live: "https://abdullah-sifat-portfolieo-website.vercel.app/",
     github: "https://github.com/mdabdullahm/abdullah-sifat-portfolieo-website"
   },
@@ -46,9 +46,9 @@ const projectData = {
     category: "Education Tech",
     image: "/projects/zerodaytest.jpg",
     tags: ["MongoDB", "Node.js", "Express", "JWT"],
-    desc: "একটি সাইবার সিকিউরিটি লার্নিং প্ল্যাটফর্ম। এখানে ইউজাররা বিভিন্ন সিকিউরিটি টাস্ক এবং চ্যালেঞ্জের মাধ্যমে হ্যাকিং ও সিকিউরিটি শিখতে পারে।",
+    desc: "A cybersecurity learning platform where users can learn hacking and security through various security tasks and challenges.",
     features: ["CTF Challenge System", "Leaderboard Integration", "Secure User Auth", "Interactive Tutorials"],
-    challenge: "ইউজারদের সাবমিট করা কোড বা ডাটা সিকিউরলি ভেরিফাই করা এবং লিডারবোর্ড লজিক তৈরি করা ছিল একটি বড় চ্যালেঞ্জ।",
+    challenge: "Securely verifying the code or data submitted by users and creating the leaderboard logic was a major challenge.",
     live: "https://zero-day-test.vercel.app/",
     github: "https://github.com/mdabdullahm/ZeroDay-Test"
   },
@@ -57,9 +57,9 @@ const projectData = {
     category: "Corporate Website",
     image: "/projects/agency.jpg",
     tags: ["Firebase", "React", "Styled Components"],
-    desc: "একটি ক্রিয়েটিভ এজেন্সির জন্য তৈরি মডার্ন ল্যান্ডিং পেজ। এটি এজেন্সির সার্ভিস এবং কাজের গুণমান ক্লায়েন্টদের কাছে প্রফেশনালভাবে তুলে ধরে।",
+    desc: "A modern landing page for a creative agency. It professionally showcases the agency's services and quality of work to clients.",
     features: ["Custom UI Design", "Portfolio Showcase", "Service Highlights", "Firebase Integration"],
-    challenge: "ক্লায়েন্টের ব্র্যান্ড ভ্যালুর সাথে মিল রেখে একটি ইউনিক ডিজাইন ল্যাঙ্গুয়েজ এবং কালার প্যালেট তৈরি করা ছিল প্রধান চ্যালেঞ্জ।",
+    challenge: "The main challenge was to create a unique design language and color palette in line with the client's brand values.",
     live: "https://neoncode.co",
     github: "https://github.com/mdabdullahm/neonStudio-Agency"
   },
@@ -68,9 +68,9 @@ const projectData = {
     category: "SaaS Dashboard",
     image: "/projects/dashbord.jpg",
     tags: ["OpenAI", "Next.js", "Clerk", "PostgreSQL"],
-    desc: "আর্টিফিশিয়াল ইন্টেলিজেন্স ইন্টিগ্রেটেড একটি অ্যাডমিন কন্ট্রোল প্যানেল। এটি ব্যবহার করে ইউজাররা তাদের ডাটা এআই এর মাধ্যমে প্রসেস করতে পারে।",
+    desc: "An admin control panel integrated with artificial intelligence. Using it, users can process their data through AI.",
     features: ["AI Powered Analytics", "Modular Dashboard UI", "Role Based Access", "Dark Mode Support"],
-    challenge: "ওপেন-এআই এপিআই এবং ড্যাশবোর্ড লজিকের মধ্যে একটি স্মুথ কানেকশন তৈরি করা এবং ডাটা সিকিউরিটি নিশ্চিত করা।",
+    challenge: "Creating a smooth connection between the Open-AI API and dashboard logic and ensuring data security.",
     live: "#",
     github: "#"
   }
@@ -195,11 +195,6 @@ const ProjectDetails = () => {
           </div>
         </div>
       </section>
-
-      {/* Footer Copy */}
-      <footer className="py-10 text-center text-gray-400 text-[10px] uppercase tracking-widest border-t border-gray-50">
-        © {new Date().getFullYear()} Md Abdullah. All rights reserved.
-      </footer>
     </main>
   );
 };

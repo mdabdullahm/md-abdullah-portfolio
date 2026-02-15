@@ -63,8 +63,8 @@ const FeaturedProjects = () => {
   ];
 
   return (
-    <section className="py-24 bg-white relative">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-15 bg-white relative">
+      <div className="max-w-full mx-auto px-6">
         
         {/* ১. সেকশন হেডার (টাইটেল বামে, বাটন ডানে সোজাসুজি) */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-24 gap-8">
@@ -92,7 +92,7 @@ const FeaturedProjects = () => {
         </div>
 
         {/* প্রোজেক্ট গ্রিড */}
-        <div className="space-y-32 md:space-y-48">
+        <div className="space-y-15 md:space-y-20">
           {projectList.map((project, index) => (
             <motion.div
               key={index}
