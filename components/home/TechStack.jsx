@@ -1,9 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
-import { 
-  SiHtml5, SiCss3, SiJavascript, SiReact, 
-  SiNextdotjs, SiTailwindcss, SiNodedotjs, 
-  SiMongodb, SiFramer, SiGit, SiGithub 
+import {
+  SiHtml5, SiCss3, SiJavascript, SiReact,
+  SiNextdotjs, SiTailwindcss, SiNodedotjs,
+  SiMongodb, SiFramer, SiGit, SiGithub,
+  SiFirebase,
+  SiFigma
 } from "react-icons/si";
 
 const TechStack = () => {
@@ -19,6 +21,8 @@ const TechStack = () => {
     { name: "GitHub", icon: <SiGithub className="text-black" /> }, // নতুন যুক্ত করা হয়েছে
     { name: "Framer", icon: <SiFramer className="text-[#0055FF]" /> },
     { name: "Git", icon: <SiGit className="text-[#F05032]" /> },
+    { name: "Firebase", level: 88, icon: <SiFirebase className="text-[#FFCA28]" /> },
+    { name: "Figma", level: 75, icon: <SiFigma className="text-[#F24E1E]" /> },
   ];
 
   // স্লাইডারটিকে বিরতিহীন করার জন্য লিস্টটি ডাবল করা হয়েছে
@@ -29,7 +33,7 @@ const TechStack = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* সেকশন হেডার */}
         <div className="text-center mb-16">
-          <motion.h4 
+          <motion.h4
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             className="text-[#00F7FF] font-bold tracking-[5px] uppercase text-xs mb-3"
@@ -48,13 +52,13 @@ const TechStack = () => {
           <div className="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-white to-transparent z-10"></div>
 
           {/* স্লাইড এনিমেশন */}
-          <motion.div 
+          <motion.div
             className="flex gap-8 py-10"
             animate={{ x: ["0%", "-50%"] }} // বাম দিকে স্লাইড হবে
-            transition={{ 
-              ease: "linear", 
+            transition={{
+              ease: "linear",
               duration: 80, // স্পিড কন্ট্রোল করতে পারো (বেশি দিলে স্লো হবে)
-              repeat: Infinity 
+              repeat: Infinity
             }}
           >
             {duplicatedTechs.map((tech, index) => (
@@ -74,7 +78,7 @@ const TechStack = () => {
         </div>
 
         {/* নিচের ছোট টেক্সট */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           className="mt-12 flex justify-center items-center gap-2 text-gray-400 font-medium"
