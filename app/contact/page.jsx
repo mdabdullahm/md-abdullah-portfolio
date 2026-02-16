@@ -1,6 +1,5 @@
+import FAQ from "@/components/contact/FAQ";
 import ContactHero from "@/components/contact/hero";
-// import WhyWorkWithMe from "../components/about/WhyWorkWithMe"; // আগের বানানো সেকশনটি পুনরায় ব্যবহার করছি
-// import CTA from "../components/CTA";
 
 export const metadata = {
   title: "Contact Me | Abdullah",
@@ -13,14 +12,8 @@ export default function ContactPage() {
       
       {/* Contact Page Hero with WhatsApp Card */}
       <ContactHero />
-
-      {/* ক্লায়েন্টকে কেন তোমাকে হায়ার করবে তার কারণগুলো এখানেও রাখা ভালো */}
-      <div className="pb-20">
-        {/* <WhyWorkWithMe /> */}
-      </div>
-
-      {/* CTA Section */}
-      {/* <CTA /> */}
+      {/* faq section 2 */}
+      <FAQ/>
     </main>
   );
 }

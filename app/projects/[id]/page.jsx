@@ -19,17 +19,17 @@ const projectData = {
     live: "https://neoncode-e-commerce-website.vercel.app/",
     github: "https://github.com/mdabdullahm/neoncode-e-commerce-website"
   },
-  "investment-platform": {
-    title: "Investment Platform",
-    category: "FinTech Solution",
-    image: "/projects/income25bd.jpg",
-    tags: ["React", "Chart.js", "Firebase", "Tailwind"],
-    desc: "A modern investment management system. Users can view their income and chart analytics here. It is best for real-time data tracking.",
-    features: ["Interactive Analytics Charts", "Real-time Income Tracking", "Secure Wallet System", "Multi-level Referrals"],
-    challenge: "The main technical challenge of this project was to accurately represent real-time chart data and calculations.",
-    live: "https://income25bd-vqg2.vercel.app/",
-    github: "https://github.com/mdabdullahm/income25bd"
-  },
+  "isp-service": {
+  title: "ISP (Internet Service Provider)",
+  category: "Network Management",
+  image: "/projects/isp.jpg",
+  tags: ["React", "Chart.js", "Tailwind", "Firebase"],
+  desc: "It is a powerful ISP management dashboard that allows service providers to monitor their customers' bandwidth usage, billing status, and network health through real-time charts.",
+  features: ["Bandwidth Monitoring Charts", "User Billing Management", "Network Health Status", "Automated Invoice Generation"],
+  challenge: "The main technical challenge of this project was to render real-time data and chart analytics from many users in the browser without any lag.",
+  live: "https://dot-internet-bd.vercel.app/",
+  github: "#"
+},
   "personal-portfolio": {
     title: "Personal Portfolio",
     category: "Personal Branding",

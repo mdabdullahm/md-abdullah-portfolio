@@ -14,11 +14,11 @@ const Projects = () => {
       live: "https://neoncode-e-commerce-website.vercel.app/" // এখানে লাইভ সাইট লিংক
     },
     { 
-      title: "Investment Platform", 
-      image: "/projects/income25bd.jpg", 
+      title: "ISP (Internet Service Provider)", 
+      image: "/projects/isp.jpg", 
       tags: ["React", "Chart.js"],
-      github: "https://github.com/mdabdullahm/income25bd", 
-      live: "https://income25bd-vqg2.vercel.app/" 
+      github: "https://dot-internet-bd.vercel.app/", 
+      live: "#" 
     },
     { 
       title: "Portfolio", 

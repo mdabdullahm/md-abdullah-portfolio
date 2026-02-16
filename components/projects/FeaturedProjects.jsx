@@ -16,14 +16,14 @@ const FeaturedProjects = () => {
       live: "https://neoncode-e-commerce-website.vercel.app/" 
     },
     { 
-      id: "investment-platform",
-      title: "Investment Platform", 
-      image: "/projects/income25bd.jpg", 
-      tags: ["React", "Chart.js"],
-      desc: "An investment management system with real-time data and chart analytics.",
-      github: "https://github.com/mdabdullahm/income25bd", 
-      live: "https://income25bd-vqg2.vercel.app/" 
-    },
+  id: "isp-service", // নতুন আইডি
+  title: "ISP (Internet Service Provider)", 
+  image: "/projects/isp.jpg", 
+  tags: ["React", "Chart.js"],
+  desc: "A complete Internet Service Provider Management System that provides real-time user analytics and billing data.",
+  github: "https://dot-internet-bd.vercel.app/", 
+  live: "#" 
+},
     { 
       id: "personal-portfolio",
       title: "Personal Portfolio", 

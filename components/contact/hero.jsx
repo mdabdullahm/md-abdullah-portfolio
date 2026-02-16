@@ -36,13 +36,13 @@ const ContactHero = () => {
               Great<span className="text-[#00F7FF]">.</span>
             </h1>
             <p className="text-gray-500 text-lg md:text-xl leading-relaxed mb-10 max-w-xl mx-auto lg:mx-0">
-              আপনার কোনো আইডিয়া আছে বা নতুন কোনো প্রোজেক্ট নিয়ে আলোচনা করতে চান? আমি মাত্র এক ক্লিক দূরে আছি!
+              Do you have an idea or want to discuss a new project? I'm just a click away!
             </p>
 
             {/* সোশ্যাল আইকনস */}
             <div className="flex justify-center lg:justify-start gap-6">
               {[
-                { icon: <FaEnvelope />, link: "mailto:yourmail@gmail.com" },
+                { icon: <FaEnvelope />, link: "mdabdullahmorol38@gmail.com" },
                 { icon: <FaLinkedin />, link: "https://linkedin.com/in/yourprofile" },
                 { icon: <FaGithub />, link: "https://github.com/yourgithub" }
               ].map((social, i) => (
@@ -78,7 +78,7 @@ const ContactHero = () => {
                     Quick Connect
                   </h3>
                   <p className="text-gray-400 mb-10 text-sm md:text-base">
-                    সরাসরি আমার সাথে হোয়াটসঅ্যাপে কথা বলতে নিচের বাটনে ক্লিক করুন। আমি সাধারণত ১-২ ঘণ্টার মধ্যে রিপ্লাই দেই।
+                    Click the button below to chat with me directly on WhatsApp. I usually reply within 1-2 hours.
                   </p>
                   
                   <motion.a
