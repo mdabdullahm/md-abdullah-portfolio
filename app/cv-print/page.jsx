@@ -3,27 +3,28 @@ import { FiMail, FiPhone, FiMapPin, FiGlobe, FiGithub, FiLinkedin } from "react-
 
 const CVPrint = () => {
   return (
-    <div className="bg-white min-h-screen p-10 text-black max-w-[800px] mx-auto border shadow-sm print:shadow-none print:border-none print:p-0 my-36">
+    <div className="bg-white min-h-screen p-5 sm:p-10 text-black max-w-[800px] mx-auto border shadow-sm print:shadow-none print:border-none print:p-0 my-10 md:my-20 lg:my-36">
       
       {/* Header */}
-      <header className="border-b-4 border-[#00F7FF] pb-6 mb-8 flex justify-between items-end">
+      <header className="border-b-4 border-[#00F7FF] pb-6 mb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
         <div>
-          <h1 className="text-4xl font-black uppercase tracking-tighter">Md Abdullah</h1>
+          <h1 className="text-3xl md:text-4xl font-black uppercase tracking-tighter">Md Abdullah</h1>
           <p className="text-[#00F7FF] font-bold uppercase tracking-widest text-sm mt-1">Full Stack Web Developer</p>
           <p className="text-gray-500 text-xs font-bold mt-1 italic">Honours 3rd Year (Islamic Studies)</p>
         </div>
-        <div className="text-right text-[11px] font-bold text-gray-600 space-y-1 uppercase tracking-wider">
-          <p className="flex items-center justify-end gap-2">contact@abdullah.dev <FiMail className="text-[#00F7FF]"/></p>
-          <p className="flex items-center justify-end gap-2">+8801785993913 <FiPhone className="text-[#00F7FF]"/></p>
-          <p className="flex items-center justify-end gap-2">Dhaka, Bangladesh <FiMapPin className="text-[#00F7FF]"/></p>
-          <p className="flex items-center justify-end gap-2">github.com/mdabdullahm <FiGithub className="text-[#00F7FF]"/></p>
+        <div className="text-left md:text-right text-[11px] font-bold text-gray-600 space-y-1 uppercase tracking-wider w-full md:w-auto">
+          <p className="flex items-center md:justify-end gap-2 text-[10px] sm:text-[11px]">contact@abdullah.dev <FiMail className="text-[#00F7FF]"/></p>
+          <p className="flex items-center md:justify-end gap-2 text-[10px] sm:text-[11px]">+8801785993913 <FiPhone className="text-[#00F7FF]"/></p>
+          <p className="flex items-center md:justify-end gap-2 text-[10px] sm:text-[11px]">Dhaka, Bangladesh <FiMapPin className="text-[#00F7FF]"/></p>
+          <p className="flex items-center md:justify-end gap-2 text-[10px] sm:text-[11px]">github.com/mdabdullahm <FiGithub className="text-[#00F7FF]"/></p>
         </div>
       </header>
 
-      <div className="grid grid-cols-12 gap-10">
+      {/* Main Grid: Mobile 1 column, Desktop 12 columns */}
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
         
-        {/* Left Column */}
-        <div className="col-span-8 space-y-8">
+        {/* Left Column (Main Info) */}
+        <div className="order-2 md:order-1 md:col-span-8 space-y-8">
           
           {/* Summary */}
           <section>
@@ -73,8 +74,8 @@ const CVPrint = () => {
           </section>
         </div>
 
-        {/* Right Column (Skills) */}
-        <div className="col-span-4 space-y-8">
+        {/* Right Column (Skills & Sidebar) */}
+        <div className="order-1 md:order-2 md:col-span-4 space-y-8">
           <section>
             <h2 className="text-lg font-black uppercase border-b border-gray-100 pb-2 mb-3 tracking-widest text-[#00F7FF]">Skills</h2>
             <div className="space-y-4">
