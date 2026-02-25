@@ -2,7 +2,7 @@ import ServicesHero from "@/components/services/hero";
 import CTA from "@/components/home/CTA";
 import Services from "@/components/home/Services";
 import Process from "@/components/services/Process";
-import Pricing from "@/components/services/Pricing";
+// import Pricing from "@/components/services/Pricing";
 
 export const metadata = {
     title: "Services | Abdullah",
@@ -19,7 +19,7 @@ export default function ServicesPage() {
             {/* Work Process section 3 */}
             <Process />
             {/* Pricing Section 4 */}
-            <Pricing />
+            {/* <Pricing /> */}
             {/* CTA Section */}
             <CTA />
         </main>
