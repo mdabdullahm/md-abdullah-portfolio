@@ -92,7 +92,7 @@ const About = () => {
             </div>
 
             {/* CTA Button */}
-            <Link href="/cv-print">
+            {/* <Link href="/cv-print">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -100,7 +100,7 @@ const About = () => {
               >
                 My CV
               </motion.button>
-            </Link>
+            </Link> */}
           </div>
 
         </div>
