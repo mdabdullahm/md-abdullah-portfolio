@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <section id="about" className="py-24 bg-white relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-full mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-16">
 
           {/* ১. বাম পাশ: ইমেজ পার্ট */}

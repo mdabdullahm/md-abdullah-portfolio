@@ -55,11 +55,11 @@ const Projects = () => {
 
   return (
     <section id="projects" className="py-15 bg-white overflow-hidden">
-      <div className="max-w-[1400px] mx-auto px-6">
+      <div className="max-w-full mx-auto">
         
         {/* হেডার পার্ট */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
-          <div className="max-w-xl text-left">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6 px-6">
+          <div className="max-w-full text-left">
             <motion.h4 
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -75,7 +75,7 @@ const Projects = () => {
           <motion.button 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="group flex items-center gap-3 bg-black text-white px-6 py-3.5 rounded-xl font-black text-[10px] tracking-widest uppercase transition-all cursor-pointer whitespace-nowrap self-start md:self-end shadow-lg"
+            className="group flex items-center gap-3 bg-black text-white px-6 py-3.5 rounded-xl font-black text-[10px] tracking-widest uppercase transition-all cursor-pointer whitespace-nowrap self-start md:self-end shadow-lg mr-4 md:ml-6 lg:ml-7"
           >
             View Projects
             <FiArrowRight className="text-[#00F7FF] text-lg group-hover:translate-x-1 transition-transform" />

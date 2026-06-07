@@ -48,7 +48,7 @@ const WhyChooseMe = () => {
             {/* ডেকোরেশন */}
             <div className="absolute top-1/2 left-0 w-64 h-64 bg-[#00F7FF]/5 rounded-full blur-[100px] -z-10" />
 
-            <div className="max-w-7xl mx-auto px-6">
+            <div className="max-w-full mx-auto px-6">
 
                 {/* হেডার পার্ট */}
                 <div className="flex flex-col md:flex-row items-center justify-between mb-16 gap-8 text-center md:text-left">

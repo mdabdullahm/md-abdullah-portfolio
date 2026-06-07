@@ -36,7 +36,7 @@ const ContactHero = () => {
               Great<span className="text-[#00F7FF]">.</span>
             </h1>
             <p className="text-gray-500 text-lg md:text-xl leading-relaxed mb-10 max-w-xl mx-auto lg:mx-0">
-              Do you have an idea or want to discuss a new project? I'm just a click away!
+              Do you have an idea or want to discuss a new project? I&apos;m just a click away!
             </p>
 
             {/* সোশ্যাল আইকনস */}

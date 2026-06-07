@@ -47,7 +47,7 @@ const Services = () => {
       
       {/* ১. ব্যাকগ্রাউন্ড লটি অ্যানিমেশন (JSON) - একদম পেছনে */}
       <div className="absolute inset-0 z-0 pointer-events-none opacity-20 flex items-center justify-center">
-        <div className="w-full max-w-[1200px]">
+        <div className="w-full max-w-full">
           <Lottie 
             animationData={animationData} 
             loop={true} 
@@ -59,7 +59,7 @@ const Services = () => {
       {/* ব্যাকগ্রাউন্ডে হালকা গ্লো */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#00F7FF]/5 rounded-full blur-[120px] -z-10" />
 
-      <div className="max-w-7xl mx-auto px-6 relative z-10">
+      <div className="max-w-full mx-auto px-6 relative z-10">
         {/* হেডার পার্ট */}
         <div className="text-center mb-16">
           <motion.h4 

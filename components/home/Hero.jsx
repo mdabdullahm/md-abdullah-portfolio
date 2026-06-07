@@ -14,7 +14,7 @@ const Hero = () => {
       
       {/* ১. ব্যাকগ্রাউন্ড লটি অ্যানিমেশন (JSON) - একদম পেছনে */}
       <div className="absolute inset-0 z-0 pointer-events-none opacity-30 flex items-center justify-center">
-        <div className="w-full max-w-[1200px]">
+        <div className="w-full max-w-full">
           <Lottie 
             animationData={animationData} 
             loop={true} 
@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="absolute top-40 -left-20 w-80 h-80 bg-[#00F7FF]/10 rounded-full blur-[120px]" />
       <div className="absolute bottom-20 -right-20 w-80 h-80 bg-blue-400/10 rounded-full blur-[120px]" />
 
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
+      <div className="max-w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
         
         {/* ১. বাম পাশ: টেক্সট কন্টেন্ট */}
         <motion.div 
@@ -46,12 +46,12 @@ const Hero = () => {
           </motion.span>
           
           <h1 className="text-5xl md:text-7xl font-black text-black leading-[1.1] mb-6">
-            Hi, I'm <span className="text-[#00F7FF]">Abdullah</span> <br />
+            Hi, I&apos;m <span className="text-[#00F7FF]">Abdullah</span> <br />
             <span className="text-gray-400 italic">Full-Stack Dev</span>
           </h1>
 
           <p className="text-gray-500 text-lg md:text-xl mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            I build modern and high-performance web applications. I'm ready to turn your ideas into reality.
+            I build modern and high-performance web applications. I&apos;m ready to turn your ideas into reality.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-5">

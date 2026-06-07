@@ -30,7 +30,7 @@ const TechStack = () => {
 
   return (
     <section id="skills" className="py-15 bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-full mx-auto px-6">
         {/* সেকশন হেডার */}
         <div className="text-center mb-16">
           <motion.h4
