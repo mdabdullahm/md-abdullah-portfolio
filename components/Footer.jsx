@@ -36,7 +36,7 @@ const Footer = () => {
             {/* সাদা ব্যাকগ্রাউন্ড এবং বর্ডারওয়ালা লোগো কন্টেইনার */}
             <Link href="/" className="inline-flex items-center mb-8 bg-white px-6 py-3 rounded-full border-2 border-black/10 shadow-lg group">
               <Image 
-                src="/navelogo.png" 
+                src="/navelogoo.png" 
                 alt="Abdullah Logo" 
                 width={50} 
                 height={50} 

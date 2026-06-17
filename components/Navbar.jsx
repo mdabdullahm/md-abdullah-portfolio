@@ -18,8 +18,8 @@ const Navbar = () => {
     { name: "Contact", href: "/contact" },
   ];
 
-  const nameText = "ABDULLAH";
-  
+  // const nameText = "ABDULLAH";
+
   // নাম অ্যানিমেশন সেটিংস
   const containerVariants = {
     hidden: { opacity: 1 },
@@ -35,36 +35,26 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-4 left-6 right-6 md:top-5 md:left-10 md:right-10 z-50 bg-black/50 backdrop-blur-xl border border-white/50 rounded-2xl shadow-2xl">
+    <nav className="fixed top-4 left-6 right-6 md:top-5 md:left-10 md:right-10 z-50 bg-black/60 backdrop-blur-xl border border-white/50 rounded-2xl shadow-2xl">
       <div className="max-w-full mx-auto px-6 h-16 flex items-center justify-between relative">
-        
+
         {/* ১. লোগো এবং নাম (বামে) */}
-        <Link href="/" className="flex items-center shrink-0 cursor-pointer">
+        <Link
+          href="/"
+          className="flex items-center shrink-0 cursor-pointer bg-white h-full pl-6 pr-12 -ml-6 rounded-l-2xl [clip-path:polygon(0_0,_100%_0,_75%_100%,_0_100%)]"
+        >
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <Image 
-              src="/navelogo.png" 
-              alt="Logo" 
-              width={60} 
-              height={35} 
-              className="object-contain" 
+            <Image
+              src="/navelogooo.png"
+              alt="Logo"
+              width={150}
+              height={35}
+              className="object-contain"
             />
-          </motion.div>
-
-          <motion.div
-            variants={containerVariants}
-            initial="hidden"
-            animate="visible"
-            className="text-xl font-black tracking-tighter flex items-center text-white"
-          >
-            {nameText.split("").map((char, index) => (
-              <motion.span key={index} variants={letterVariants}>
-                {char}
-              </motion.span>
-            ))}
           </motion.div>
         </Link>
 
@@ -78,14 +68,13 @@ const Navbar = () => {
               <Link
                 key={link.name}
                 href={link.href}
-                className={`text-[12px] font-bold uppercase tracking-[2px] transition-all duration-300 relative group ${
-                  isActive ? "text-[#00F7FF]" : "text-gray-300 hover:text-[#00F7FF]"
-                }`}
+                className={`text-[12px] font-bold uppercase tracking-[2px] transition-all duration-300 relative group ${isActive ? "text-[#00F7FF]" : "text-gray-300 hover:text-[#00F7FF]"
+                  }`}
               >
                 {link.name}
                 {/* Active Underline (Optional but looks Pro) */}
                 {isActive && (
-                  <motion.div 
+                  <motion.div
                     layoutId="activeNav"
                     className="absolute -bottom-1 left-0 w-full h-[2px] bg-[#00F7FF]"
                   />
@@ -105,8 +94,8 @@ const Navbar = () => {
         </div>
 
         {/* মোবাইল মেনু বাটন */}
-        <button 
-          className="md:hidden text-white text-2xl focus:outline-none cursor-pointer" 
+        <button
+          className="md:hidden text-white text-2xl focus:outline-none cursor-pointer"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? "✕" : "☰"}
@@ -116,7 +105,7 @@ const Navbar = () => {
       {/* ৪. মোবাইল রেসপনসিভ মেনু */}
       <AnimatePresence>
         {isOpen && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
@@ -129,9 +118,8 @@ const Navbar = () => {
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className={`text-lg font-bold uppercase tracking-widest transition-all ${
-                    isActive ? "text-[#00F7FF]" : "text-gray-300 hover:text-[#00F7FF]"
-                  }`}
+                  className={`text-lg font-bold uppercase tracking-widest transition-all ${isActive ? "text-[#00F7FF]" : "text-gray-300 hover:text-[#00F7FF]"
+                    }`}
                 >
                   {link.name}
                 </Link>
